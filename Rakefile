@@ -72,7 +72,7 @@ namespace :ansible do
             cmd_ansible_molecule_project,
             env_command: env_command,
             job: job,
-            playbook: 'playbook-site.yml',
+            playbook: 'playbook-playbook-site.yml',
             files: molecule_verifier_files(['site']),
             projectname: @project['name'],
             image:
